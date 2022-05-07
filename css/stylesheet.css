@@ -1,0 +1,284 @@
+#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 15%;
+margin: auto;
+padding: 4%;}
+
+body {font-family: Ubuntu,helvetica, sans-serif;
+		font-size: 14pt;
+		line-height: 19pt;
+	}
+
+.icon {width: 5%;
+margin: 15px;}	
+
+
+h1{font-family: ubuntu,helvetica, sans-serif;
+font-weight: bold;
+font-size: 1.7em;
+color: lightgrey;
+text-align: center; /* make test align center*/
+display: block;
+background-color: black;
+padding: 15px 15px;
+letter-spacing: 1px;
+width: 350px;
+margin: auto; /*make text box center*/}
+
+
+
+
+/* testimonial*/
+
+
+
+h2{font-family: Lora-Bold,times New Roman, serif;
+	font-size: 15px;
+font-weight: bolder;}
+
+.rev{
+	font-family: lora,times New Roman, serif;
+	font-size: 15px;
+}
+
+.peop {width: 40px;}
+
+#containerrev{Display: block;
+	padding:  15px 15px;
+	width: 60%;
+margin: auto;}
+
+#star{display: block;
+	width: 8%;}
+
+section{padding: 10px 40px;
+border: 1px solid #c0c0c0;
+border-width: thin;
+margin: 5px;
+}
+
+/*contact us*/
+
+* head,p, body {
+    margin: 0%;
+    padding: 0%;   
+}
+
+#callus{display: block;
+padding: 15px 15px;
+width: 100%;
+background-color: black;
+margin: auto;}
+
+.con{font-family: ubuntu, helvetica, sans-serif;
+text-align: center;
+color: #B1C1C1;
+letter-spacing: 1px;}
+
+.sm{
+	font-size: 13px;
+}
+
+
+  /* Needed to position the navbar */
+
+
+/* Position the navbar container inside the image */
+.container {
+position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+	display: block;
+		width: 360px;
+		margin: auto;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+#container {
+	display: block;
+	width: 60%;
+	padding: 40px 40px;
+	margin: auto;
+}
+
+span.boldp {
+	font-weight: bolder;
+}
+
+figure {display: block;
+text-align: center;}
+
+figcaption {
+	font-family:Ubuntu-light,heveltica, sans-serif ;
+	font-size: 13pt;
+color: #06999B;}
+
+
+#changer {width: 45%;
+}
+
+
+
+.left {display: block;
+margin: auto;
+width: 25%;}
+
+/* link*/
+a:link{color: #B1C1C1;
+text-decoration: none;}
+
+a:visited{}
+
+a:hover{
+	color: yellow;
+}
+a:active{color: orange}
+
+
+/********** Large devices only **********/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+	#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 23%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 10%;}
+
+	#changer {width: 70%;
+}
+
+
+.left {display: block;
+margin: auto;
+width: 30%;}
+}
+
+
+  
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#container {
+	width: 90%;
+	padding: 8px 8px;
+		margin: 30px;
+}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 35%;
+margin: auto;
+padding: 4%;}
+
+	.icon {width: 11%;}
+
+
+
+
+.left {display: block;
+margin: auto;
+width: 40%;}
+
+
+
+}
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+		#container {
+	width: 85%;
+	padding: 8px 8px;
+		margin: 15px;
+}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 35%;
+margin: auto;
+padding: 10%;}
+
+body {
+		font-size: 13pt;
+		line-height: 19pt;
+	}
+
+	.icon {width: 15%;
+		margin: 8px;
+	}
+
+	#changer {width: 105%;
+}
+
+figcaption {
+	font-family:Ubuntu-light,helveltica, sans-serif ;
+	font-size: 11pt;
+color: #06999B;}
+
+.left {display: block;
+margin: auto;
+width: 60%;}
+}
+
+.column {padding: 10px;}
+
+
+#star{display: block;
+	width: 5em}
+
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+			#container {
+	width: 89%;
+		padding: 8px 8px;
+		margin: 20px;
+}
+
+		#logoimg {display: block; /*to make the image-rendering centerlise*/
+width: 35%;
+margin: auto;
+padding: 10%;}
+
+	.icon {width: 20%;
+		margin: 8px;
+	}
+
+	#changer {width: 90%;
+}
+
+
+.left {display: block;
+margin: auto;
+width: 300px;}
+
+
+}
+
