@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Deft Handyman</title>
+    <script>$('img').mousedown(function (e) {
+  if(e.button == 2) { // right click
+    return false; // do nothing!
+  }
+}
+    </script> <!--prevent user download img-->
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,12 +41,14 @@
         </center>
     </div>
 <div id="container">
-        <p>
+        <p class="back">
     Deft Handyman was founded by Peter Chua, a professional with over 10 years experience in the Carpentry industry. I am a problem solver in maintenance and repairs around your home or office. In sense of refinement, the work I serve you,
 gives you peace of mind.<br><br>
 
 <span class="boldp">My services includes: </span>
-Installing & replacing water taps, door knobs, doors, shelves, TV brackets, mirrors, metal door gate latch and more! Assemble furniture/cabinet, clear toilet blockages, painting. Dismantle and disposal services. 
+<span class="b">Installing & replacing</span> water taps, door knobs, doors, shelves, TV brackets, mirrors, metal door gate latch and more! <br><span class="b">Assemble</span> furniture/cabinet, clear toilet blockages, painting. <br><br>
+<span class="b">Locksmith.</span><br><br>
+<span class="b">Dismantle and disposal services.</span> 
     </p>
 </div>
 <a name="jobs"></a>
@@ -55,7 +63,7 @@ Installing & replacing water taps, door knobs, doors, shelves, TV brackets, mirr
 </figure>
 <figure>
     <img id="changer" src="link/joubciumage-03.jpg" alt="doorlock">
-    <figcaption>Fixing cabinet’s door, replace hinges</figcaption>
+    <figcaption>Replace the frame and hinges</figcaption>
 </figure>
 <!-- Photo Grid -->
 <div class="row">
@@ -68,7 +76,7 @@ laundry dryer</figcaption></figure>
     <div class="column">
  <figure class="left">
         <img src="link/joubciumage-05.jpg" style="width:100%">
-        <figcaption>re-size cabinet's door to fit the wall</figcaption></figure>
+        <figcaption>Common Doors resizing</figcaption></figure>
 </div>
     <div class="column">
  <figure class="left">
@@ -78,12 +86,11 @@ laundry dryer</figcaption></figure>
     <div class="column">
  <figure class="left">
         <img src="link/joubciumage-07.jpg" style="width:100%">
-        <figcaption>Build-in tray for oven on 
-the old cabinet</figcaption></figure></div>
+        <figcaption>Added oven tray in old cabinet</figcaption></figure></div>
     <div class="column">
  <figure class="left">
         <img src="link/joubciumage-08.jpg" style="width:100%">
-        <figcaption>light Installation
+        <figcaption>LED light Installation (18w,24w,36w)
         </figcaption>
     </figure>
 </div>
