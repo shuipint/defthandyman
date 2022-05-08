@@ -120,7 +120,7 @@ margin-block-start: 0;
 figcaption {
 	font-family:Ubuntu-light,heveltica, sans-serif ;
 	font-size: 13pt;
-color: #06999B;
+color: #683428;
 line-height: 11px;
 padding-bottom: 18px;}
 
@@ -140,13 +140,10 @@ a{font-weight:700;
 a:link{color: #B1C1C1;
 text-decoration: none;}
 
-a:visited{}
 
-a:hover{
-	color: yellow;
-}
+a:hover{color: yellow;}
 a:active{color: orange}
-
+a:visited{}
 
 /********** Large devices only **********/
 
