@@ -12,7 +12,7 @@ body {font-family: Ubuntu,helvetica, sans-serif;
 .icon {width: 5%;
 margin: 15px;}	
 
-.b{font-family: Ubuntu-bold;}
+.b{font-weight: 700;}
 
 h1{font-family: ubuntu,helvetica, sans-serif;
 font-weight: bold;
