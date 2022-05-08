@@ -3,6 +3,7 @@ width: 15%;
 margin: auto;
 padding: 4%;}
 
+
 body {font-family: Ubuntu,helvetica, sans-serif;
 		font-size: 14pt;
 		line-height: 19pt;
@@ -134,6 +135,8 @@ margin: auto;
 width: 400px;}
 
 /* link*/
+a{font-weight:700;
+	color: #B1C1C1;}
 a:link{color: #B1C1C1;
 text-decoration: none;}
 
