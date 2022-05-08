@@ -28,6 +28,13 @@ margin: auto; /*make text box center*/}
 
 img {pointer-events: none;} /* prevent user to save image */
 
+footer{
+	margin-left: auto;
+	Margin-right: auto;
+	text-align:  center;
+	font-size:  11px;
+}
+
 
 /* testimonial*/
 
@@ -282,4 +289,3 @@ width: 350px;}
 
 
 }
-
